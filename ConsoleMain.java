@@ -75,7 +75,7 @@ public class ConsoleMain {
 
     public static void printGrammar()
     {
-        System.out.println("\nS  ->  S' | ε");
+        System.out.println("\nS  ->  S'");
         System.out.println("S' ->  AA'");
         System.out.println("A  ->  AA'+ | AA'- | ε");
         System.out.println("A' ->  MM'");
