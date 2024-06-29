@@ -26,7 +26,7 @@ public class RecursiveDescentParser
 
     Grammar (Rightmost parsing):
 
-    S  ->  S' | ε
+    S  ->  S'
     S' ->  AA'
     A  ->  AA'+ | AA'- | ε
     A' ->  MM'
