@@ -291,7 +291,7 @@ public class ApplicationFrame extends JFrame
                     textAreaBottom.selectAll();
                     textAreaBottom.replaceSelection("");
 
-                    textAreaBottom.append("S  ->  S' | ε\n");
+                    textAreaBottom.append("S  ->  S'\n");
                     textAreaBottom.append("S' ->  AA'\n");
                     textAreaBottom.append("A  ->  AA'+ | AA'- | ε\n");
                     textAreaBottom.append("A' ->  MM'\n");
